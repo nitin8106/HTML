@@ -1,0 +1,72 @@
+<html>
+<head>
+<title>Register</title>
+</head>
+<body>
+<form name="register" method="post">
+<table align="center" background-color="#f7f7f7">
+<caption><b>registration page</b></caption>
+<tr>
+<td>User name</td>
+<td><input type="text" name="uname"></td>
+</tr>
+<td> Password</td>
+<td><input type = "password" name="pwd"></td>
+</tr>
+<tr>
+<td>E-mail</td>
+<td><input type="text" name="email></td>
+</tr>
+<tr><td>Phone number</td>
+<td><input = type="text" name="phno" size ="12" maxlength="10"></td>
+</tr>
+ <tr>
+<td>Gender</td>
+<td><input type="radio" name="gender" checked>Male &nbsp;
+<input type="radio" name="gender"> Female</td>
+</tr>
+<tr>
+<td>Date of birth</td>
+<td><input type="date" name="dob"></td>
+</tr>
+<tr>
+<td>languages known</td>
+<td>
+<input type="checkbox" name="chkeng" checked>english & nbsp;
+<input type="checkbox" name="chkHin"> Hindi & nbsp;
+<input type="checkbox" name="chktel"> Telugu & nbsp;
+<input type ="checkbox" name="chkTam"> Tamil & nbsp;
+</td>
+</tr>
+<tr>
+<td><select name="state">
+<option value = "Select"> SelectState</option>
+<option value = "Telangana"> TS</option>
+<option value = "AP"> AP</option>
+<option value = "MP"> MP</option>
+<option value = "Karnataka">Karnataka</option>
+</select>
+</td>
+<td><Select name="dist">
+<option value = "select">SelectDist</option>
+<option value = "Hyderabad">Hyderabad</option>
+<option value = "Warangal">Warangal</option>
+<option value = "rangareddy">rangareddy</option>
+<option value = "karimnaghar">karimnagar</option>
+<option value = "Nalgonada">Nalgonda</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>Address</td>
+<td><textarea rows="5" cols="20" name="txtAddress"></textarea></td>
+</tr>
+<tr>
+<td colspan="2" align="center">
+<input type="submit" value="Register"> &nbsp;
+<input type="reset" value="Reset">
+</td>
+</tr>
+</table>
+</body>
+</html>
